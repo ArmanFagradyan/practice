@@ -21,16 +21,16 @@
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-'use strict';
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// 'use strict';
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: {},
-    private: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: {},
+//     private: false
+// };
 
 // const a = prompt('Один из последних просмотренных фильмов?'),
 //       b = prompt('На сколько оцените его?'),
@@ -56,6 +56,16 @@ const personalMovieDB = {
 
 4) Потренироваться и переписать цикл еще двумя способами*/
 
+'use strict';
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: {},
+    private: false
+};
 
 for (let i = 0; i < 2; i++) {
     const a = prompt('Один из последних просмотренных фильмов?'),
