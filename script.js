@@ -33,7 +33,7 @@
 //     movies: {},
 //     actors: {},
 //     genres: {},
-//     private: false
+//     privat: false
 // };
 
 // const a = prompt('Один из последних просмотренных фильмов?'),
@@ -98,7 +98,7 @@ const personalMovieDB = {
     movies: {},
     actors: {},
     genres: {},
-    private: false
+    privat: false
 };
 
 
@@ -142,10 +142,10 @@ function showMyDB (hidden) {
     }
 }
 
-showMyDB(personalMovieDB.private);
+showMyDB(personalMovieDB.privat);
 
 function writeYourGenres() {
-    for (let i = 1; i <3; i++) {
+    for (let i = 1; i <= 3; i++) {
         personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
     }
 }
